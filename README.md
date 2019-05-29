@@ -6,10 +6,18 @@
 3. 命名实体识别，找出实体
 4. 关系识别，生成多个形如(entity1,relation,entity2)的tuple。最后两步骤可以一起做
 
+
+依赖安装：
+1、pyltp
+2、hanziconv
+3、python-goose
+
+
 https://blog.csdn.net/u013709270/article/details/78944538
 NLTK
 https://blog.csdn.net/cangqiong112758/article/details/50791468
-
+https://github.com/tim5go/zhopenie
+https://github.com/crownpku/Information-Extraction-Chinese
 
 任务流程：
 1. 对query进行解析，获取实体以及关系【分词、tagging、ner。主要是利用知识库中的数据进行后处理】- 技术：信息抽取

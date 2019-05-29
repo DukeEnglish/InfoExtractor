@@ -66,7 +66,7 @@ class Extractor():
             self.__subclause_dict[i] = subclause
 
     def load(self):
-        PATH ='/Users/ljy/Work/dian/Professional_project/NLPP/Dev/flashnlp/models/ltp_model/ltp_data_v3.4.0/'
+        PATH =''
         self.__segmentor.load(PATH+'cws.model')
         self.__postagger.load(PATH+'pos.model')
         self.__recognizer.load(PATH+'ner.model')
